@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 double num1 = Integer.parseInt(firstNumEditText.getText().toString());
                 double num2 = Integer.parseInt(secondNumEditText.getText().toString());
                 double resultAdd = num1 + num2;
-                resultTextView.setText(resulta=Add + "");
+                resultTextView.setText(resultAdd + "");
 
             }
         });
