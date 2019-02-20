@@ -72,6 +72,9 @@
         android:layout_marginBottom="8dp"
         android:text="Result"
         android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorPrimaryDark"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,6 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subtract"
+        android:textColor="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="243dp"
         tools:layout_editor_absoluteY="245dp" />
 
@@ -91,6 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Divide"
+        android:textColor="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="341dp" />
 
@@ -99,6 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="multiply"
+        android:textColor="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="243dp"
         tools:layout_editor_absoluteY="341dp" />
 </android.support.constraint.ConstraintLayout>
