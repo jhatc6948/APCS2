@@ -55,6 +55,7 @@
         android:layout_marginRight="8dp"
         android:text="ADD"
         android:textColor="@color/colorPrimaryDark"
+        android:typeface="monospace"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.255"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,11 +72,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="Result"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
         android:textColorHighlight="@color/colorPrimaryDark"
         android:textColorHint="@color/colorPrimaryDark"
         android:textColorLink="@color/colorPrimaryDark"
         android:textSize="48sp"
+        app:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +89,7 @@
         android:layout_height="wrap_content"
         android:text="Subtract"
         android:textColor="@color/colorPrimaryDark"
+        android:typeface="monospace"
         tools:layout_editor_absoluteX="243dp"
         tools:layout_editor_absoluteY="245dp" />
 
@@ -96,6 +99,7 @@
         android:layout_height="wrap_content"
         android:text="Divide"
         android:textColor="@color/colorPrimaryDark"
+        android:typeface="monospace"
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="341dp" />
 
@@ -105,6 +109,7 @@
         android:layout_height="wrap_content"
         android:text="multiply"
         android:textColor="@color/colorPrimaryDark"
+        android:typeface="monospace"
         tools:layout_editor_absoluteX="243dp"
         tools:layout_editor_absoluteY="341dp" />
 </android.support.constraint.ConstraintLayout>
