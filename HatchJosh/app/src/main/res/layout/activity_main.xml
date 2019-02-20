@@ -6,13 +6,99 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/firstNumEditText"
+        android:layout_width="215dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Enter a number"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <EditText
+        android:id="@+id/secondNumEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="Enter a number"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstNumEditText" />
 
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="ADD"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Result"
+        android:textColor="@color/colorAccent"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBtn" />
+
+    <Button
+        android:id="@+id/subBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/devBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/multBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiply"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="341dp" />
 </android.support.constraint.ConstraintLayout>
