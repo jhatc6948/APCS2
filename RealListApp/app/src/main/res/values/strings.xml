@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PerryK List App</string>
+
+    <string-array name="items">
+        <item>peach</item>
+        <item>tomato</item>
+        <item>squash</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>$1.08</item>
+        <item>$0.98</item>
+        <item>$1.89</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Action packed Action game that goes through the entire series</item>
+        <item>Action packed bumper cars with a soccer ball</item>
+        <item>Action packed fighting fighter game</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JoshHList App</string>
+
+    <string-array name="items">
+        <item>Halo Collection</item>
+        <item>Rocket League</item>
+        <item>Super Smash Bro Ult</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>$29.31</item>
+        <item>$19.24</item>
+        <item>$59.88</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Action packed Action game that goes through the entire series</item>
+        <item>Action packed bumper cars with a soccer ball</item>
+        <item>Action packed fighting fighter game</item>
+    </string-array>
+</resources>
