@@ -14,6 +14,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -51,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
 
     private class GetData extends AsyncTask<String,String,String>{
         String msg = "";
-        static final String JDBC_DRIVER = "com";
-        static final String DB_URL =
+        static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+        static final String DB_URL = "jdbc:mysql://"+
                 DbStrings.DATABASE_URL + "/" +
                 DbStrings.DATABASE_NAME;
 
-        protected void onPreExecution(){
+        protected void onPreExecute(){
             progressTextView.setText("Connecting to database...");
 
         }
